@@ -1,0 +1,11 @@
+#include<stdio.h>
+main()
+{
+    int *ptr,n;
+    scanf("%d",&n);
+    ptr = (int*)malloc(n*sizeof(int));
+    scanf("%d",ptr);
+    printf("%d\n",ptr);
+    ptr = (int*)realloc(ptr,sizeof(int)*10);
+    printf("%d",ptr);
+}

@@ -1,0 +1,15 @@
+
+#include<stdio.h>
+main()
+{
+    int arr[5]= {1,2,3,4,5};
+    int j,i,temp[5];
+     i,j = 0;
+    for(i=4;i>=0;i--)
+    {
+        temp[j]=arr[i];
+        j++;
+     }
+ for(j=0;j<5;j++)
+   	 printf("%d ",temp[j]);
+     }

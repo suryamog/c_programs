@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<string.h>
+main()
+{
+    int i,count;
+    char str[50]= "stknmfrykujboffihjekl";
+    for(i=0;str[i]!='\0';i++)
+    {
+        if(str[i]=='a'||str[i]=='e'||str[i]=='i'||str[i]=='o'||str[i]=='u')
+        {
+             printf("%c",str[i]);
+	   count++;
+        }
+         printf(“%d”,count);
+    }
+}

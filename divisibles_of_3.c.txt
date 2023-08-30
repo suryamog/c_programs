@@ -1,0 +1,13 @@
+#include<stdio.h>
+main()
+{
+    int a ;
+    printf("give the num");
+    scanf("%d",&a);
+    for(a;a<=30;a++){
+        if(a%3==0)
+        {
+            printf("%d\n",a);
+        }
+}
+}

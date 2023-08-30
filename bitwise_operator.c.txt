@@ -1,0 +1,15 @@
+#include<stdio.h>
+main()
+{
+    int num,mask=0X1;
+    printf("give a num");
+    scanf("%d",&num);
+    if((num & mask)==0)
+    {
+        printf("even");
+    }
+    else
+    {
+        printf("odd");
+    }
+   }

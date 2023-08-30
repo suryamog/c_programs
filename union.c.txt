@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<string.h>
+main()
+{
+    union student 
+    {
+        char name[10];
+        int roll ;
+        float marks;
+    };
+    
+    union student obj ;
+    scanf("%d",&obj.roll);
+    scanf("%f",&obj.marks);
+   printf("%d",obj.roll);
+   printf("%f\n",obj.marks);
+}
+

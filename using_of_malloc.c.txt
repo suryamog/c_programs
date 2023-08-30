@@ -1,0 +1,9 @@
+#include<stdio.h>
+main()
+{
+    int *ptr,n;
+    scanf("%d",&n);
+    ptr = (int*)malloc(n*sizeof(int));
+    scanf("%d",ptr);
+    printf("%d",*ptr);
+}

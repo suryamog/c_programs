@@ -1,0 +1,30 @@
+#include<stdio.h>
+main()
+{
+    int num,rem,fin;
+    //scanf("%d",&num);
+   
+    for(fin =145;fin<=50000;fin++)
+    {
+       int sum=0,fact=1;
+     num=fin;
+    while(num>=1)
+    {
+        rem = num%10;
+        while(rem>=1)
+        {
+            fact = fact*rem;
+            rem--;
+        }
+        sum = sum+fact;
+        if(sum==fin)
+        {
+            printf("%d its a strong num\n",sum);
+        }
+     
+        num=num/10;
+        fact =1;
+    }
+}
+    
+}

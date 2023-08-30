@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<string.h>
+struct student {
+    char name[10];
+    int roll;
+    float marks;
+};
+void fun(struct student obj);
+main()
+{
+    int a;
+    struct student obj;
+    obj.roll = 10;
+    fun(obj);
+}
+void fun(struct student obj)
+{
+   printf("%d", obj.roll);
+}

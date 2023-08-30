@@ -1,0 +1,15 @@
+#include<stdio.h>
+main()
+{
+    int a ;
+    printf("give  num");
+    scanf("%d",&a);
+    if(a%5==0 && a >0|| a<0)
+    {
+        printf("it is divisible by 5");
+   }
+   else
+   {
+       printf("not divisble");
+   }
+}

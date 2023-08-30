@@ -1,0 +1,11 @@
+#include<stdio.h>
+main()
+{
+    int i;
+    char str[10]="su1r3ya56";
+    for(i=0;str[i]!='\0';i++)
+    {
+        if(str[i]>='a'&&str[i]<='z')
+        printf("%c",str[i]);
+    }
+}

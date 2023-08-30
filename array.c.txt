@@ -1,0 +1,11 @@
+#include<stdio.h>
+main()
+{
+    int arr[10] = {7,4,9,3,0};
+    int i;
+    for(i =0;i<5;i++)
+    {
+        printf("%d\n",arr[i]);
+    }
+
+}

@@ -1,0 +1,17 @@
+
+#include<stdio.h>
+#include<string.h>
+main()
+{
+  int letter,space,words,i;
+  char str[100] = "i am surya";
+ for(i=0;str[i]!='\0';i++)
+ {
+     if(str[i]==' ')
+     {
+         space++;
+     }
+  }
+   words = space+1;
+   printf("%d",words);
+}

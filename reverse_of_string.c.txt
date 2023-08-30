@@ -1,0 +1,19 @@
+#include<stdio.h>
+main()
+{
+    char str[5] = "surya";
+    int j=0,i,temp[5];
+    for(i=strlen(str)-1;i>=0;i--)
+    {
+        temp[j]=str[i];
+        j++;
+     }
+
+
+    for(j=0;temp[j]!='\0';j++)
+    {
+    printf("%c ",temp[j]);
+    }
+    
+}
+

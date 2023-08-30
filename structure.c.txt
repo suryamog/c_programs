@@ -1,0 +1,28 @@
+#include<stdio.h>
+#include<string.h>
+main()
+{
+    struct student 
+    {
+        char name[10];
+        int roll ;
+        float marks;
+    };
+    
+    struct student obj,obj1 ;
+    gets(obj.name);
+    scanf("%d",&obj.roll);
+    scanf("%f",&obj.marks);
+   puts(obj.name);
+   printf("%d",obj.roll);
+   printf("%f\n",obj.marks);
+    gets(obj1.name);
+    scanf("%d",&obj1.roll);
+    scanf("%f",&obj1.marks);
+   puts(obj1.name);
+   printf("%d",obj1.roll);
+   printf("%f\n",obj1.marks);
+   
+}
+
+

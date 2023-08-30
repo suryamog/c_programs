@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<stdio.h>
+main()
+{
+    char str[15] = "surys i sm hsppy";
+    int i;
+    for(i=0;str[i]!='\0';i++)
+    {
+        if(str[i]=='s')
+        {
+            str[i] ='a';
+          
+        }
+    }
+    puts(str);
+}

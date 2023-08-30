@@ -1,0 +1,25 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+    int i;
+    struct student
+    {
+        char name[100];
+        int roll;
+        float marks;
+    };
+    for(i=0;i<=4;i++)
+    {
+    struct student list[i];
+    printf("\n give a name:");
+    scanf("%s",list[i].name);
+    printf("give the roll no:");
+    scanf("%d",&list[i].roll);
+    printf("give marks:");
+    scanf("%f",&list[i].marks);
+    printf("name of student:%s",list[i].name);
+    printf("\n roll no:%d",list[i].roll);
+    printf("\n marks:%f",list[i].marks);
+}
+}

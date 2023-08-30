@@ -1,0 +1,13 @@
+//avg elements
+#include<stdio.h>
+main()
+{
+    int a[9]={1,2,3,4,5,6,7,8,99},i,sum=0,count = 0,avg;
+    for(i=0;i<9;i++)
+    {
+     sum=sum+a[i];
+     count++;
+     avg=sum/count;
+    }
+    printf("%d",avg);
+}

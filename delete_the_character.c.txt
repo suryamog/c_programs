@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<stdio.h>
+main()
+{
+    int i,j,k,len;
+    char str[50] ="sssurryyaa";
+    len = strlen(str);
+    for(i=0;i<len;i++)
+    {
+        for(j=i+1;str[j]!='\0';j++)
+        {
+            if(str[i]==str[j])
+            {
+                for(k=j;str[k]!='\0';k++)
+                {
+                    str[k]=str[k+1];
+                }
+                len--;
+            }
+        }
+    }
+    printf("%s",str);
+}

@@ -1,0 +1,15 @@
+   #include<stdio.h>
+main()
+{
+    int arr[6] = {1,7,8,9,10,4376};
+    int i,max;
+    for(i =0;i<6;i++)
+    {
+    if(arr[i]>max)
+        {
+             max = arr[i];
+        }
+    }
+        printf("%d\n",max);
+}
+
